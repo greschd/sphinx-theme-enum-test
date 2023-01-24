@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sphinx-enum-test"
+version = "0.1.0"
+description = ""
+authors = ["Dominik Gresch <dominik.gresch@ansys.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "sphinx_enum_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Sphinx = "^6.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
